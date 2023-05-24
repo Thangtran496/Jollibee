@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class JollibeeController {
-	@RequestMapping("Jollibee")
+	@RequestMapping("/Jollibee")
 	public String hello() {
 		return "Thang";
 	}

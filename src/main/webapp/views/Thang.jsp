@@ -5,8 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+
+<link rel="stylesheet" type="text/css" href="https://unpkgs.com/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/dist/css/bootstrap.min.css" />
 </head>
 <body>
-        <h1>Hello World</h1>
+	<header class="bg-danger">
+	</header>
 </body>
 </html>
