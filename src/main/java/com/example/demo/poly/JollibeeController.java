@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class JollibeeController {
 	@RequestMapping("/Jollibee")
 	public String hello() {
-		return "Thang";
+		return "NewFile";
 	}
 }
