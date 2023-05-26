@@ -15,14 +15,13 @@
 </head>
 
 <body>
-  <header class="bg-danger p-4">
+  <header class="bg-warning p-4">
     <div class="row">
-      <img src="img/LogoJB_New-02a.png" class="d-flex flex-row col-2"></img>
-      <div class="container col-8">
+      <img src="img/logo.jpg" class="d-flex flex-row col-1"></img>
+      <div class="container col-9">
         <div class="row">
           <div class="d-flex flex-row-reverse">
             <p><a href="#" class="link-underline link-underline-opacity-0 text-light p-2"> đăng nhập/đăng kí</a></p>
-            <p><a href="#" class="link-underline link-underline-opacity-0 text-light p-2">chọn khu vực</a></p>
           </div>
         </div>
         <div class="row">
@@ -46,17 +45,23 @@
           </ul>
         </div>
       </div>
-      <img src="img/LogoJB_New-02a.png" class="d-flex flex-row-reverse col-2"></img>
+      <div class="col-2 d-flex justify-content-center align-items-center">
+        <div >
+          <a href="#" class="p-3"><img width="64" height="64" src="https://img.icons8.com/cotton/64/gender-neutral-user--v1.png" alt="gender-neutral-user--v1"/></a>
+          <a href="#"><img width="64" height="64" src="https://img.icons8.com/cotton/64/chicken-box.png" alt="chicken-box"/></i></a>
+          
+        </div>
+      </div>
     </div>
   </header>
 
   <!-- footer -->
-  <footer class="bg-danger">
+  <footer class="bg-dark">
     <div class="container">
       <div class="row text-light d-flex justify-content-around">
-        <img src="img/LogoJB_New-02a.png" class="col-xl-3" alt="">
+        <img src="img/logo.jpg" class="col-xl-3" alt="">
         <div class="col-xl-3">
-          <p>CÔNG TY TNHH JOLLIBEE VIỆT NAM
+          <p>CÔNG TY TNHH Ok ga VIỆT NAM
 
             Địa chỉ: Lầu 5, tòa nhà SCIC, 16 Trương Định, Phường Võ Thị Sáu, Quận 3, Tp. Hồ Chí Minh, Việt Nam
 
@@ -64,7 +69,7 @@
 
             Tổng đài: 1900-1533
 
-            Email: jbvnfeedback@jollibee.com.vn
+            Email: jbvnfeedback@Ok ga.com.vn
 
             Mã số thuế: 0303883266
 

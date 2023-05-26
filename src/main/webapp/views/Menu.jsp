@@ -17,10 +17,10 @@
 </head>
 
 <body>
-  <header class="bg-danger p-4">
+  <header class="bg-warning p-4">
     <div class="row">
-      <img src="img/LogoJB_New-02a.png" class="d-flex flex-row col-2"></img>
-      <div class="container col-8">
+      <img src="img/logo.jpg" class="d-flex flex-row col-1"></img>
+      <div class="container col-9">
         <div class="row">
           <div class="d-flex flex-row-reverse">
             <p><a href="#" class="link-underline link-underline-opacity-0 text-light p-2"> đăng nhập/đăng kí</a></p>
@@ -48,7 +48,12 @@
           </ul>
         </div>
       </div>
-      <img src="img/LogoJB_New-02a.png" class="d-flex flex-row-reverse col-2"></img>
+      <div class="col-2 d-flex justify-content-center align-items-center">
+        <div >
+          <a href="#" class="p-3"><img width="64" height="64" src="https://img.icons8.com/cotton/64/gender-neutral-user--v1.png" alt="gender-neutral-user--v1"/></a>
+          <a href="#"><img width="64" height="64" src="https://img.icons8.com/cotton/64/chicken-box.png" alt="chicken-box"/></i></a>
+          
+        </div>
     </div>
   </header>
   <!-- banner -->
@@ -58,48 +63,48 @@
   </div>
 
   <div>
-    <nav class="navbar navbar-default row bg-danger navbar-fixed-top">
+    <nav class="navbar navbar-default row bg-warning navbar-fixed-top">
       <ul class="nav nav-tabs justify-content-center">
         <li class="nav-item">
           <p class="fs-5"><a
             data-toggle="tab"
-              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
+              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-secondary text-light"
               href="#combo">Combo</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
             data-toggle="tab"
-              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
+              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-secondary text-light"
               href="#gagion">Gà giòn vui vẻ</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
             data-toggle="tab"
-              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
+              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-secondary text-light"
               href="#gacay">Gà sốt cay</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
             data-toggle="tab"
-              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
+              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-secondary text-light"
               href="#miy">Mì Ý Joli</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
             data-toggle="tab"
-              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
+              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-secondary text-light"
               href="#burger">Burger và cơm</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
             data-toggle="tab"
-              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
+              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-secondary text-light"
               href="#anphu">Phần ăn phụ</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
             data-toggle="tab"
-              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
+              class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-secondary text-light"
               href="#trangmieng">Tráng miệng</a></p>
         </li>
       </ul>
@@ -534,10 +539,10 @@
   
 
   <!-- footer -->
-  <footer class="bg-danger">
+  <footer class="bg-dark">
     <div class="container">
       <div class="row text-light d-flex justify-content-around">
-        <img src="img/LogoJB_New-02a.png" class="col-xl-3" alt="">
+        <img src="img/logo.jpg" class="col-xl-3" alt="">
         <div class="col-xl-3">
           <p>CÔNG TY TNHH JOLLIBEE VIỆT NAM
 
