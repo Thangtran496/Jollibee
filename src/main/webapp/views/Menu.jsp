@@ -62,38 +62,45 @@
       <ul class="nav nav-tabs justify-content-center">
         <li class="nav-item">
           <p class="fs-5"><a
+            data-toggle="tab"
               class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
-              href="#">Combo</a></p>
+              href="#combo">Combo</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
+            data-toggle="tab"
               class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
-              href="#">Gà giòn vui vẻ</a></p>
+              href="#gagion">Gà giòn vui vẻ</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
+            data-toggle="tab"
               class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
-              href="#">Gà sốt cay</a></p>
+              href="#gacay">Gà sốt cay</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
+            data-toggle="tab"
               class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
-              href="#">Mì Ý Joli</a></p>
+              href="#miy">Mì Ý Joli</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
+            data-toggle="tab"
               class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
-              href="#">Burger và cơm</a></p>
+              href="#burger">Burger và cơm</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
+            data-toggle="tab"
               class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
-              href="#">Phần ăn phụ</a></p>
+              href="#anphu">Phần ăn phụ</a></p>
         </li>
         <li class="nav-item">
           <p class="fs-5"><a
+            data-toggle="tab"
               class="nav-link link-underline link-underline-opacity-0 list-group-item-action list-group-item-danger text-light"
-              href="#">Tráng miệng</a></p>
+              href="#trangmieng">Tráng miệng</a></p>
         </li>
       </ul>
     </nav>
@@ -103,14 +110,15 @@
     <button type="button" class="btn btn-warning m-3">Đặt hàng theo nhóm</button>
   </div>
 
-  <div class="container d-flex justify-content-center">
+  <div class="tab-content">
+    <div id="combo" class="container d-flex justify-content-center tab-pane active">
     <div class="row w-75">
       <div class="col-xl-4">
         <div class="card">
           <img src="img/product.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            <h5 class="card-title">Combo</h5>
+            <p class="card-text">Some quick example text to build on the Combo and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
@@ -120,8 +128,8 @@
         <div class="card">
           <img src="img/product.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            <h5 class="card-title">Combo</h5>
+            <p class="card-text">Some quick example text to build on the Combo and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
@@ -131,8 +139,8 @@
         <div class="card">
           <img src="img/product.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            <h5 class="card-title">Combo</h5>
+            <p class="card-text">Some quick example text to build on the Combo and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
@@ -142,8 +150,8 @@
         <div class="card">
           <img src="img/product.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            <h5 class="card-title">Combo</h5>
+            <p class="card-text">Some quick example text to build on the Combo and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
@@ -153,8 +161,8 @@
         <div class="card">
           <img src="img/product.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            <h5 class="card-title">Combo</h5>
+            <p class="card-text">Some quick example text to build on the Combo and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
@@ -162,6 +170,368 @@
       </div>
     </div>
   </div>
+
+  <div id="gagion" class="container d-flex justify-content-center tab-pane ">
+    <div class="row w-75">
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gagion</h5>
+            <p class="card-text">Some quick example text to build on the Gagion and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gagion</h5>
+            <p class="card-text">Some quick example text to build on the Gagion and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gagion</h5>
+            <p class="card-text">Some quick example text to build on the Gagion and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gagion</h5>
+            <p class="card-text">Some quick example text to build on the Gagion and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gagion</h5>
+            <p class="card-text">Some quick example text to build on the Gagion and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="gacay" class="container d-flex justify-content-center tab-pane ">
+    <div class="row w-75">
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gacay</h5>
+            <p class="card-text">Some quick example text to build on the Gacay and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gacay</h5>
+            <p class="card-text">Some quick example text to build on the Gacay and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gacay</h5>
+            <p class="card-text">Some quick example text to build on the Gacay and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gacay</h5>
+            <p class="card-text">Some quick example text to build on the Gacay and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gacay</h5>
+            <p class="card-text">Some quick example text to build on the Gacay and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="miy" class="container d-flex justify-content-center tab-pane ">
+    <div class="row w-75">
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mi Y</h5>
+            <p class="card-text">Some quick example text to build on the Mi Y and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mi Y</h5>
+            <p class="card-text">Some quick example text to build on the Mi Y and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mi Y</h5>
+            <p class="card-text">Some quick example text to build on the Mi Y and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mi Y</h5>
+            <p class="card-text">Some quick example text to build on the Mi Y and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mi Y</h5>
+            <p class="card-text">Some quick example text to build on the Mi Y and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="burger" class="container d-flex justify-content-center tab-pane ">
+    <div class="row w-75">
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Burger</h5>
+            <p class="card-text">Some quick example text to build on the Burger and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Burger</h5>
+            <p class="card-text">Some quick example text to build on the Burger and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Burger</h5>
+            <p class="card-text">Some quick example text to build on the Burger and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Burger</h5>
+            <p class="card-text">Some quick example text to build on the Burger and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Burger</h5>
+            <p class="card-text">Some quick example text to build on the Burger and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="anphu" class="container d-flex justify-content-center tab-pane ">
+    <div class="row w-75">
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">AnPhu</h5>
+            <p class="card-text">Some quick example text to build on the AnPhu and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">AnPhu</h5>
+            <p class="card-text">Some quick example text to build on the AnPhu and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">AnPhu</h5>
+            <p class="card-text">Some quick example text to build on the AnPhu and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">AnPhu</h5>
+            <p class="card-text">Some quick example text to build on the AnPhu and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">AnPhu</h5>
+            <p class="card-text">Some quick example text to build on the AnPhu and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="trangmieng" class="container d-flex justify-content-center tab-pane ">
+    <div class="row w-75">
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TrangMieng</h5>
+            <p class="card-text">Some quick example text to build on the TrangMieng and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TrangMieng</h5>
+            <p class="card-text">Some quick example text to build on the TrangMieng and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TrangMieng</h5>
+            <p class="card-text">Some quick example text to build on the TrangMieng and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TrangMieng</h5>
+            <p class="card-text">Some quick example text to build on the TrangMieng and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <img src="img/product.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TrangMieng</h5>
+            <p class="card-text">Some quick example text to build on the TrangMieng and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
 
   <!-- footer -->
   <footer class="bg-danger">
