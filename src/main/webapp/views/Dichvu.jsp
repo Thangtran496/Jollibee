@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/fontawesome.min.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+	<nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
     <div class="container text-light">
         <div class="w-100 d-flex justify-content-between">
             <div>
@@ -136,57 +136,98 @@
         <i class="fas fa-chevron-right"></i>
     </a>
 </div>
-<div class="lienhe">
-        <div class="container">
-            <div class="row mt-2 text-center">
-                <div class="col-2">
-                    <h1 style="font-family: 'Montserrat', sans-serif;">Liên Hệ</h1>
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col-sm-5">
-                    <p>
-                        CÔNG TY TNHH JOLLIBEE VIỆT NAM <br>
-    
-                        Địa chỉ: Lầu 5, tòa nhà SCIC, 16 Trương Định, Phường Võ Thị Sáu, Quận 3, Tp. Hồ Chí Minh, Việt Nam <br>
-    
-                        Tổng đài: 1900-1533 <br>
-    
-                        Hộp thư góp ý: jbvnfeedback@jollibee.com.vn <br>
-                    </p>
-                </div>
-                <div class="col-sm-7">
-                    <h3 style="font-family: 'Montserrat', sans-serif;">GỬI TIN NHẮN CHO CHÚNG TÔI</h3>
-                    <div class="row mt-3">
-                        <div class="col-4">
-                            <input type="text" style="background-color: #FFFACD;" class="form-control" name="name" placeholder="Tên" required="" aria-required="true" aria-invalid="true">
-                        </div>
-                        <div class="col-4">
-                            <input type="text" style="background-color: #FFFACD;" class="form-control" name="name" placeholder="Số điện thoại" required="" aria-required="true" aria-invalid="true">
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-8">
-                            <input type="text" style="background-color: #FFFACD;" class="form-control" name="name" placeholder="Email" required="" aria-required="true" aria-invalid="true">
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-8">
-                            <textarea name="message" style="background-color: #FFFACD;" class="form-control" placeholder="Nội dung" required="" aria-required="true" aria-invalid="true"></textarea>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-submit">Gửi tin nhắn</button>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d244.89334998446876!2d106.63273882665479!3d10.865259192953532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1674982421048!5m2!1svi!2s"
-            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
-    <footer class="bg-dark" id="tempaltemo_footer">
+  <div class="container">
+    <table width="1297px" height="717.75px" background="https://jollibee.com.vn/images/news/news.jpg" cellpadding="5"
+      cellspacing="0">
+      <tr>
+        <td>
+          <p><b class="chu1">
+              <div class="cuong-bg-dark text-white bg-opacity-50">
+                <br>
+                <br>
+                <br>
+                <h1>DỊCH VỤ</h1>
+                <br>
+                <br><img src="https://jollibee.com.vn/images/popline.svg" alt="">
+                <br>
+                <br>
+                <p>TẬN HƯỞNG NHỮNG KHOẢNH KHẮC TRỌN VẸN CÙNG JOLLIBEE</p>
+              </div>
+            </b></p>
+        </td>
+      </tr>
+    </table>
+    <table width="1297px" height="550px" class="bg-light" cellpadding="5" cellspacing="0">
+      <tr>
+        <td>
+          <p><b class="chu2">
+              <div>
+                <br><img src="https://jollibee.com.vn/images/service/1.png" alt="">
+              </div>
+            </b></p>
+          <div>
+            <h1 class="sdt">1900 - 1533</h1>
+            <a class="xemthem1 text-white" href="">XEM THÊM</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <table width="1297px" height="550px" class="nen2" cellpadding="5" cellspacing="0">
+      <tr>
+        <td>
+          <p><b class="chu3">
+              <div>
+                <br><img src="https://jollibee.com.vn/images/service/2.png" alt="">
+              </div>
+            </b></p>
+          <div>
+            <h1 class="dtsn">ĐẶT TIỆC SINH NHẬT</h1>
+            <p class="dtsn0">Bạn đang tìm ý tưởng cho một buổi tiệc sinh nhật thật đặc <br> biệt dành cho con của bạn?
+              Hãy chọn những bữa tiệc của <br> Jollibee. Sẽ có nhiều điều vui nhộn và rất đáng nhớ dành <br> cho con của
+              bạn.</p>
+            <a class="xemthem2 text-white" href="">XEM THÊM</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <table width="1297px" height="550px" class="nen3" cellpadding="5" cellspacing="0">
+      <tr>
+        <td>
+          <p><b class="chu4">
+              <div>
+                <br><img src="https://jollibee.com.vn/images/service/3.png" alt="">
+              </div>
+            </b></p>
+          <div>
+            <h1 class="jkc">JOLLIBEE KID CLUB</h1>
+            <p class="jkc0">Hãy để con bạn thoả thích thể hiện và khám phá tài năng <br> bên trong của mình cùng cơ hội
+              gặp gỡ những bạn đồng <br> lứa khác tại Jollibee Kids Club. Cùng tìm hiểu thêm thông <br> tin về Jollibee
+              Kids Club và tham gia ngay.</p>
+            <a class="xemthem3 text-white" href="">XEM THÊM</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <table width="1297px" height="550px" class="nen4" cellpadding="5" cellspacing="0">
+      <tr>
+        <td>
+          <p><b class="chu5">
+              <div>
+                <br><img src="https://jollibee.com.vn/images/service/4.png" alt="">
+              </div>
+            </b></p>
+          <div>
+            <h1 class="dhl">ĐƠN HÀNG LỚN</h1>
+            <P class="dhl0">Để phục vụ sở thích quây quần cùng gia đình và bạn bè, <br> chương trình chiết khấu hấp dẫn
+              dành cho những đơn <br> hàng lớn đã ra đời để đem đến những lựa chọn tiện lợi hơn <br> cho bạn. Liên hệ
+              ngay với cửa hàng gần nhất để được phục vụ.</P>
+            <a class="xemthem4 text-white" href="">XEM THÊM</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+ </div>
+  <footer class="bg-dark" id="tempaltemo_footer">
     <div class="container">
         <div class="row">
 
@@ -287,28 +328,205 @@
 <script src="js/templatemo.js"></script>
 <script src="js/custom.js"></script>
 <!-- End Script -->
-    </body>
+</body>
 </html>
-    <style>
-        .lienhe{
-    background-color: #ffde94;
-}
-.form-control{
-    border: 1px solid #FFFACD;
-    border-radius: 10px;
-}
-.btn-submit{
-    margin-top: 25px;
-    padding: 0 20px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #B32D53;
-    color: aliceblue;
-    border: 1px solid #B32D53;
-    border-radius: 10px;
-}
-.btn{
-    font-weight: 400;
-    text-transform: uppercase;
 
-}
-    </style>
+<style scoped>
+  .chu1 font {
+    color: white;
+    font: 2.8125rem/3.375rem "MergeBlack", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .chu2 {
+    position: relative;
+    top: 130%;
+    left: 325px;
+  }
+
+
+
+  .nen2 {
+    background-color: antiquewhite;
+  }
+
+  .dtsn {
+    position: relative;
+    color: rgb(129, 183, 48);
+    left: 650px;
+    top: -300px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .dtsn0 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    left: 650px;
+    top: -300px;
+  }
+
+  .chu3 {
+    position: relative;
+    top: 20px;
+    left: 225px;
+  }
+
+  .chu3 img {
+    width: 350;
+    height: 385px;
+  }
+
+
+
+
+  .nen3 {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .jkc {
+    position: relative;
+    color: orange;
+    left: 650px;
+    top: -220px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .jkc0 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    left: 650px;
+    top: -220px;
+  }
+
+  .chu4 {
+    position: relative;
+    top: 20px;
+    left: 225px;
+  }
+
+  .chu4 img {
+    width: 350;
+    height: 300px;
+  }
+
+
+
+
+  .nen4 {
+    background-color: antiquewhite;
+    position: relative;
+  }
+
+  .dhl {
+    position: relative;
+    color: rgb(113, 208, 227);
+    left: 650px;
+    top: -300px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .dhl0 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    left: 650px;
+    top: -300px;
+  }
+
+  .chu5 {
+    position: relative;
+    top: 20px;
+    left: 225px;
+  }
+
+  .chu5 img {
+    width: 350;
+    height: 385px;
+  }
+
+
+
+  .sdt {
+    position: relative;
+    color: red;
+    left: 770px;
+    top: -290px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .cuong-bg-dark {
+    position: relative;
+    top: 0%;
+    left: 450px;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+
+
+  .xemthem1 {
+    position: relative;
+    text-decoration: none;
+    background-color: #c62026;
+    border-color: #c62026;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-family: "MergeBlack", sans-serif;
+    top: -270px;
+    left: 773px;
+    padding: 8px 30px;
+  }
+
+  .xemthem2 {
+    position: relative;
+    text-decoration: none;
+    background-color: #c62026;
+    border-color: #c62026;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-family: "MergeBlack", sans-serif;
+    left: 650px;
+    top: -300px;
+    padding: 8px 30px;
+  }
+
+  .xemthem3 {
+    position: relative;
+    text-decoration: none;
+    background-color: #c62026;
+    border-color: #c62026;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-family: "MergeBlack", sans-serif;
+    left: 650px;
+    top: -220px;
+    padding: 8px 30px;
+  }
+
+  .xemthem4 {
+    position: relative;
+    text-decoration: none;
+    background-color: #c62026;
+    border-color: #c62026;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-family: "MergeBlack", sans-serif;
+    left: 650px;
+    top: -300px;
+    padding: 8px 30px;
+  }
+</style>
