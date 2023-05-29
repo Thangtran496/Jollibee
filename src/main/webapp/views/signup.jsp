@@ -18,7 +18,7 @@
 
             <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: rgb(253,247,229);">
                 <div class="featured-image mb-3">
-                    <img src="./icon/chicken_fried.jpg" class="img-fluid " >
+                    <img src="img/chicken_fried.jpg" class="img-fluid " >
                 </div>
             </div>
 
