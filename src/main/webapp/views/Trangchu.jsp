@@ -7,16 +7,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="/assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/templatemo.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo.css">
+    <link rel="stylesheet" href="css/custom.css">
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
 <!--
     
 TemplateMo 559 Zay Shop
@@ -131,10 +131,10 @@ https://templatemo.com/tm-559-zay-shop
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="img-fluid" src="./assets/img/gahoangkim.jpg" alt="">
+            <img class="img-fluid" src="./img/gahoangkim.jpg" alt="">
         </div>
         <div class="carousel-item">
-            <img class="img-fluid" src="./assets/img/banner1.jpg" alt="">
+            <img class="img-fluid" src="./img/banner1.jpg" alt="">
         </div>
     </div>
     <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
@@ -156,17 +156,17 @@ https://templatemo.com/tm-559-zay-shop
     </div>
     <div class="row">
         <div class="col-12 col-md-4 p-5 mt-3">
-            <a href="#"><img src="./assets/img/MONMOI.jpg" class="rounded-circle img-fluid border"></a>
+            <a href="#"><img src="./img/MONMOI.jpg" class="rounded-circle img-fluid border"></a>
             <h5 class="text-center mt-3 mb-3">Món mới</h5>
             <p class="text-center"><a class="btn btn-success">Xem thêm</a></p>
         </div>
         <div class="col-12 col-md-4 p-5 mt-3">
-            <a href="#"><img src="./assets/img/COMBO1NGUOI.jpg" class="rounded-circle img-fluid border"></a>
+            <a href="#"><img src="./img/COMBO1NGUOI.jpg" class="rounded-circle img-fluid border"></a>
             <h2 class="h5 text-center mt-3 mb-3">Combo 1 người</h2>
             <p class="text-center"><a class="btn btn-success">Xem thêm</a></p>
         </div>
         <div class="col-12 col-md-4 p-5 mt-3">
-            <a href="#"><img src="./assets/img/GA.jpg" class="rounded-circle img-fluid border"></a>
+            <a href="#"><img src="./img/GA.jpg" class="rounded-circle img-fluid border"></a>
             <h2 class="h5 text-center mt-3 mb-3">Combo nhóm</h2>
             <p class="text-center"><a class="btn btn-success">Xem thêm</a></p>
         </div>
@@ -187,7 +187,7 @@ https://templatemo.com/tm-559-zay-shop
             <div class="col-12 col-md-4 mb-4">
                 <div class="card h-100">
                     <a href="#">
-                        <img src="./assets/img/gagion.jpg" class="card-img-top" alt="...">
+                        <img src="./img/gagion.jpg" class="card-img-top" alt="...">
                     </a>
                     <div class="card-body">
                         <ul class="list-unstyled d-flex justify-content-between">
@@ -202,7 +202,7 @@ https://templatemo.com/tm-559-zay-shop
             <div class="col-12 col-md-4 mb-4">
                 <div class="card h-100">
                     <a href="#">
-                        <img src="./assets/img/gagionvuive.jpg" class="card-img-top" alt="...">
+                        <img src="./img/gagionvuive.jpg" class="card-img-top" alt="...">
                     </a>
                     <div class="card-body">
                         <ul class="list-unstyled d-flex justify-content-between">
@@ -218,7 +218,7 @@ https://templatemo.com/tm-559-zay-shop
             <div class="col-12 col-md-4 mb-4">
                 <div class="card h-100">
                     <a href="#">
-                        <img src="./assets/img/comgagion.jpg" class="card-img-top" alt="...">
+                        <img src="./img/comgagion.jpg" class="card-img-top" alt="...">
                     </a>
                     <div class="card-body">
                         <ul class="list-unstyled d-flex justify-content-between">
@@ -234,7 +234,7 @@ https://templatemo.com/tm-559-zay-shop
             <div class="col-12 col-md-4 mb-4">
                 <div class="card h-100">
                     <a href="#">
-                        <img src="./assets/img/gagionkhoaitay.jpg" class="card-img-top" alt="...">
+                        <img src="./img/gagionkhoaitay.jpg" class="card-img-top" alt="...">
                     </a>
                     <div class="card-body">
                         <ul class="list-unstyled d-flex justify-content-between">
@@ -251,7 +251,7 @@ https://templatemo.com/tm-559-zay-shop
             <div class="col-12 col-md-4 mb-4">
                 <div class="card h-100">
                     <a href="#">
-                        <img src="./assets/img/gagionnuocngot.jpg" class="card-img-top" alt="...">
+                        <img src="./img/gagionnuocngot.jpg" class="card-img-top" alt="...">
                     </a>
                     <div class="card-body">
                         <ul class="list-unstyled d-flex justify-content-between">
@@ -268,7 +268,7 @@ https://templatemo.com/tm-559-zay-shop
             <div class="col-12 col-md-4 mb-4">
                 <div class="card h-100">
                     <a href="#">
-                        <img src="./assets/img/gagionkhoaitay.jpg" class="card-img-top" alt="...">
+                        <img src="./img/gagionkhoaitay.jpg" class="card-img-top" alt="...">
                     </a>
                     <div class="card-body">
                         <ul class="list-unstyled d-flex justify-content-between">
@@ -384,11 +384,11 @@ https://templatemo.com/tm-559-zay-shop
 <!-- End Footer -->
 
 <!-- Start Script -->
-<script src="assets/js/jquery-1.11.0.min.js"></script>
-<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/templatemo.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/templatemo.js"></script>
+<script src="js/custom.js"></script>
 <!-- End Script -->
 </body>
 </html>
