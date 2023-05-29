@@ -50,7 +50,7 @@
                         <button type="submit" class="btn btn-primary w-100">Đăng nhập</button>
                     </div>
                     <div>
-                        <p>Bạn chưa có tài khoản? <a href="./register.html" class="text-decoration-none">Đăng ký</a></p>
+                        <p>Bạn chưa có tài khoản? <a href="signup" class="text-decoration-none">Đăng ký</a></p>
                     </div>
 
                 </form>
