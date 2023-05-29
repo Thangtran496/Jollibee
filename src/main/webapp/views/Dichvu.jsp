@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Zay Shop eCommerce HTML CSS Template</title>
+<title>Zay Shop eCommerce HTML CSS Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,22 +13,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/templatemo.css">
     <link rel="stylesheet" href="css/custom.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	
+
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="css/fontawesome.min.css">
-<!--
-    
-TemplateMo 559 Zay Shop
-
-https://templatemo.com/tm-559-zay-shop
-
--->
 </head>
 <body>
-<!-- Start Top Nav -->
-<nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+	<nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
     <div class="container text-light">
         <div class="w-100 d-flex justify-content-between">
             <div>
@@ -145,152 +136,98 @@ https://templatemo.com/tm-559-zay-shop
         <i class="fas fa-chevron-right"></i>
     </a>
 </div>
-<!-- End Banner Hero -->
-
-
-<!-- Start Categories of The Month -->
-<section class="container py-5">
-    <div class="row text-center pt-3">
-        <div class="col-lg-6 m-auto">
-            <h1 class="h1">Danh mục</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 col-md-4 p-5 mt-3">
-            <a href="#"><img src="./img/MONMOI.jpg" class="rounded-circle img-fluid border"></a>
-            <h5 class="text-center mt-3 mb-3">Món mới</h5>
-            <p class="text-center"><a class="btn btn-success">Xem thêm</a></p>
-        </div>
-        <div class="col-12 col-md-4 p-5 mt-3">
-            <a href="#"><img src="./img/COMBO1NGUOI.jpg" class="rounded-circle img-fluid border"></a>
-            <h2 class="h5 text-center mt-3 mb-3">Combo 1 người</h2>
-            <p class="text-center"><a class="btn btn-success">Xem thêm</a></p>
-        </div>
-        <div class="col-12 col-md-4 p-5 mt-3">
-            <a href="#"><img src="./img/GA.jpg" class="rounded-circle img-fluid border"></a>
-            <h2 class="h5 text-center mt-3 mb-3">Combo nhóm</h2>
-            <p class="text-center"><a class="btn btn-success">Xem thêm</a></p>
-        </div>
-    </div>
-</section>
-<!-- End Categories of The Month -->
-
-
-<!-- Start Featured Product -->
-<section class="bg-light">
-    <div class="container py-5">
-        <div class="row text-center py-3">
-            <div class="col-lg-6 m-auto">
-                <h1 class="h1">Ăn gì hôm nay</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card h-100">
-                    <a href="#">
-                        <img src="./img/gagion.jpg" class="card-img-top" alt="...">
-                    </a>
-                    <div class="card-body">
-                        <ul class="list-unstyled d-flex justify-content-between">
-                            <li class="text-right">66.000₫</li>
-                        </ul>
-                        <a href="#" class="h2 text-decoration-none text-dark">CƠM GÀ GIÒN (1 MIẾNG GÀ GIÒN, CƠM VÀ XÀ LÁCH)</a>
-                        <br>
-                        <button class="btn add-to-cart single mt-3 mb-3 d-flex justify-content-between" style="text-transform: uppercase; overflow: hidden; position: relative; color: white;">Đặt hàng</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card h-100">
-                    <a href="#">
-                        <img src="./img/gagionvuive.jpg" class="card-img-top" alt="...">
-                    </a>
-                    <div class="card-body">
-                        <ul class="list-unstyled d-flex justify-content-between">
-                            <li class="text-right">75.000₫</li>
-                        </ul>
-                        <a href="#" class="h2 text-decoration-none text-dark">01 MIẾNG GÀ GIÒN VUI VẺ + 01 MỲ Ý JOLLY + 01 NƯỚC</a>
-                        <br>
-                        <button class="btn add-to-cart single mt-3 mb-3 d-flex justify-content-between" style="text-transform: uppercase; overflow: hidden; position: relative; color: white;">Đặt hàng</button>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card h-100">
-                    <a href="#">
-                        <img src="./img/comgagion.jpg" class="card-img-top" alt="...">
-                    </a>
-                    <div class="card-body">
-                        <ul class="list-unstyled d-flex justify-content-between">
-                        
-                            <li class="text-muted text-right">58.000₫</li>
-                        </ul>
-                        <a href="shop-single.html" class="h2 text-decoration-none text-dark">CƠM GÀ GIÒN + SÚP BÍ ĐỎ + NƯỚC NGỌT</a>
-                        <button class="btn add-to-cart single mt-3 mb-3 d-flex justify-content-between" style="text-transform: uppercase; overflow: hidden; position: relative; color: white;">Đặt hàng</button>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card h-100">
-                    <a href="#">
-                        <img src="./img/gagionkhoaitay.jpg" class="card-img-top" alt="...">
-                    </a>
-                    <div class="card-body">
-                        <ul class="list-unstyled d-flex justify-content-between">
-                            
-                            <li class="text-right">53.000₫</li>
-                        </ul>
-                        <a href="#" class="h2 text-decoration-none text-dark">1 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT</a>
-                        <br>
-                        <button class="btn add-to-cart single mt-3 mb-3 d-flex justify-content-between" style="text-transform: uppercase; overflow: hidden; position: relative; color: white;">Đặt hàng</button>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card h-100">
-                    <a href="#">
-                        <img src="./img/gagionnuocngot.jpg" class="card-img-top" alt="...">
-                    </a>
-                    <div class="card-body">
-                        <ul class="list-unstyled d-flex justify-content-between">
-                            
-                            <li class="text-right">53.000₫</li>
-                        </ul>
-                        <a href="#" class="h2 text-decoration-none text-dark">CƠM GÀ GIÒN + NƯỚC NGỌT</a>
-                        <br>
-                        <button class="btn add-to-cart single mt-3 mb-3 d-flex justify-content-between" style="text-transform: uppercase; overflow: hidden; position: relative; color: white;">Đặt hàng</button>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card h-100">
-                    <a href="#">
-                        <img src="./img/gagionkhoaitay.jpg" class="card-img-top" alt="...">
-                    </a>
-                    <div class="card-body">
-                        <ul class="list-unstyled d-flex justify-content-between">
-                           
-                            <li class="text-right">53.000₫</li>
-                        </ul>
-                        <a href="#" class="h2 text-decoration-none text-dark">1 MIẾNG GÀ GIÒN + KHOAI TÂY VỪA + NƯỚC NGỌT</a>
-                        <br>
-                        <button class="btn add-to-cart single mt-3 mb-3 d-flex justify-content-between" style="text-transform: uppercase; overflow: hidden; position: relative; color: white;">Đặt hàng</button>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Featured Product -->
-
-
-<!-- Start Footer -->
-<footer class="bg-dark" id="tempaltemo_footer">
+  <div class="container">
+    <table width="1297px" height="717.75px" background="https://jollibee.com.vn/images/news/news.jpg" cellpadding="5"
+      cellspacing="0">
+      <tr>
+        <td>
+          <p><b class="chu1">
+              <div class="cuong-bg-dark text-white bg-opacity-50">
+                <br>
+                <br>
+                <br>
+                <h1>DỊCH VỤ</h1>
+                <br>
+                <br><img src="https://jollibee.com.vn/images/popline.svg" alt="">
+                <br>
+                <br>
+                <p>TẬN HƯỞNG NHỮNG KHOẢNH KHẮC TRỌN VẸN CÙNG JOLLIBEE</p>
+              </div>
+            </b></p>
+        </td>
+      </tr>
+    </table>
+    <table width="1297px" height="550px" class="bg-light" cellpadding="5" cellspacing="0">
+      <tr>
+        <td>
+          <p><b class="chu2">
+              <div>
+                <br><img src="https://jollibee.com.vn/images/service/1.png" alt="">
+              </div>
+            </b></p>
+          <div>
+            <h1 class="sdt">1900 - 1533</h1>
+            <a class="xemthem1 text-white" href="">XEM THÊM</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <table width="1297px" height="550px" class="nen2" cellpadding="5" cellspacing="0">
+      <tr>
+        <td>
+          <p><b class="chu3">
+              <div>
+                <br><img src="https://jollibee.com.vn/images/service/2.png" alt="">
+              </div>
+            </b></p>
+          <div>
+            <h1 class="dtsn">ĐẶT TIỆC SINH NHẬT</h1>
+            <p class="dtsn0">Bạn đang tìm ý tưởng cho một buổi tiệc sinh nhật thật đặc <br> biệt dành cho con của bạn?
+              Hãy chọn những bữa tiệc của <br> Jollibee. Sẽ có nhiều điều vui nhộn và rất đáng nhớ dành <br> cho con của
+              bạn.</p>
+            <a class="xemthem2 text-white" href="">XEM THÊM</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <table width="1297px" height="550px" class="nen3" cellpadding="5" cellspacing="0">
+      <tr>
+        <td>
+          <p><b class="chu4">
+              <div>
+                <br><img src="https://jollibee.com.vn/images/service/3.png" alt="">
+              </div>
+            </b></p>
+          <div>
+            <h1 class="jkc">JOLLIBEE KID CLUB</h1>
+            <p class="jkc0">Hãy để con bạn thoả thích thể hiện và khám phá tài năng <br> bên trong của mình cùng cơ hội
+              gặp gỡ những bạn đồng <br> lứa khác tại Jollibee Kids Club. Cùng tìm hiểu thêm thông <br> tin về Jollibee
+              Kids Club và tham gia ngay.</p>
+            <a class="xemthem3 text-white" href="">XEM THÊM</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <table width="1297px" height="550px" class="nen4" cellpadding="5" cellspacing="0">
+      <tr>
+        <td>
+          <p><b class="chu5">
+              <div>
+                <br><img src="https://jollibee.com.vn/images/service/4.png" alt="">
+              </div>
+            </b></p>
+          <div>
+            <h1 class="dhl">ĐƠN HÀNG LỚN</h1>
+            <P class="dhl0">Để phục vụ sở thích quây quần cùng gia đình và bạn bè, <br> chương trình chiết khấu hấp dẫn
+              dành cho những đơn <br> hàng lớn đã ra đời để đem đến những lựa chọn tiện lợi hơn <br> cho bạn. Liên hệ
+              ngay với cửa hàng gần nhất để được phục vụ.</P>
+            <a class="xemthem4 text-white" href="">XEM THÊM</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+ </div>
+  <footer class="bg-dark" id="tempaltemo_footer">
     <div class="container">
         <div class="row">
 
@@ -393,3 +330,203 @@ https://templatemo.com/tm-559-zay-shop
 <!-- End Script -->
 </body>
 </html>
+
+<style scoped>
+  .chu1 font {
+    color: white;
+    font: 2.8125rem/3.375rem "MergeBlack", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .chu2 {
+    position: relative;
+    top: 130%;
+    left: 325px;
+  }
+
+
+
+  .nen2 {
+    background-color: antiquewhite;
+  }
+
+  .dtsn {
+    position: relative;
+    color: rgb(129, 183, 48);
+    left: 650px;
+    top: -300px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .dtsn0 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    left: 650px;
+    top: -300px;
+  }
+
+  .chu3 {
+    position: relative;
+    top: 20px;
+    left: 225px;
+  }
+
+  .chu3 img {
+    width: 350;
+    height: 385px;
+  }
+
+
+
+
+  .nen3 {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .jkc {
+    position: relative;
+    color: orange;
+    left: 650px;
+    top: -220px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .jkc0 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    left: 650px;
+    top: -220px;
+  }
+
+  .chu4 {
+    position: relative;
+    top: 20px;
+    left: 225px;
+  }
+
+  .chu4 img {
+    width: 350;
+    height: 300px;
+  }
+
+
+
+
+  .nen4 {
+    background-color: antiquewhite;
+    position: relative;
+  }
+
+  .dhl {
+    position: relative;
+    color: rgb(113, 208, 227);
+    left: 650px;
+    top: -300px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .dhl0 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    left: 650px;
+    top: -300px;
+  }
+
+  .chu5 {
+    position: relative;
+    top: 20px;
+    left: 225px;
+  }
+
+  .chu5 img {
+    width: 350;
+    height: 385px;
+  }
+
+
+
+  .sdt {
+    position: relative;
+    color: red;
+    left: 770px;
+    top: -290px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .cuong-bg-dark {
+    position: relative;
+    top: 0%;
+    left: 450px;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+
+
+  .xemthem1 {
+    position: relative;
+    text-decoration: none;
+    background-color: #c62026;
+    border-color: #c62026;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-family: "MergeBlack", sans-serif;
+    top: -270px;
+    left: 773px;
+    padding: 8px 30px;
+  }
+
+  .xemthem2 {
+    position: relative;
+    text-decoration: none;
+    background-color: #c62026;
+    border-color: #c62026;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-family: "MergeBlack", sans-serif;
+    left: 650px;
+    top: -300px;
+    padding: 8px 30px;
+  }
+
+  .xemthem3 {
+    position: relative;
+    text-decoration: none;
+    background-color: #c62026;
+    border-color: #c62026;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-family: "MergeBlack", sans-serif;
+    left: 650px;
+    top: -220px;
+    padding: 8px 30px;
+  }
+
+  .xemthem4 {
+    position: relative;
+    text-decoration: none;
+    background-color: #c62026;
+    border-color: #c62026;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-family: "MergeBlack", sans-serif;
+    left: 650px;
+    top: -300px;
+    padding: 8px 30px;
+  }
+</style>
