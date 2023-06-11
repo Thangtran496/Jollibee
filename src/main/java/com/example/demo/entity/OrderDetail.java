@@ -12,11 +12,11 @@ import lombok.Data;
 public class OrderDetail implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-	private Double price;
-	private Integer quantity;
+	Long id;
+	Double price;
+	Integer quantity;
 	@ManyToOne @JoinColumn(name = "ProductId")
-	private Product product;
+	Product product;
 	@ManyToOne @JoinColumn(name = "OrderId")
-	private Order order;
+	Order order;
 }

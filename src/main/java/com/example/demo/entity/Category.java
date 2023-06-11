@@ -11,10 +11,10 @@ import lombok.Data;
 @Table(name = "Categories")
 public class Category implements Serializable{
 	@Id
-	private String id;
-	private String name;
+	String id;
+	String name;
 	@Column(name = "is_delete")
-	private Boolean isDelete = false;
+	Boolean isDelete = false;
 	@OneToMany(mappedBy = "category")
-	private List<Product> products;
+	List<Product> products;
 }
