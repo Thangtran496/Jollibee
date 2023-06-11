@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Zay Shop eCommerce HTML CSS Template</title>
+    <title>OK GÀ</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,35 +27,16 @@ https://templatemo.com/tm-559-zay-shop
 -->
 </head>
 <body>
-<!-- Start Top Nav -->
-<nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
-    <div class="container text-light">
-        <div class="w-100 d-flex justify-content-between">
-            <div>
-                <i class="fa fa-envelope mx-2"></i>
-                <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>
-                <i class="fa fa-phone mx-2"></i>
-                <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
-            </div>
-            <div>
-                <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
-            </div>
-        </div>
-    </div>
-</nav>
-<!-- Close Top Nav -->
-
 
 <!-- Header -->
 <nav class="navbar navbar-expand-lg navbar-light shadow">
     <div class="container d-flex justify-content-between align-items-center">
 
-        <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-            Zolli2
-        </a>
+        <div class="d-flex justify-content-center align-items-center flex-column fixed">
+            <a class="navbar-brand text-success logo h1 align-self-center" href="">
+                <img src="img/logo-5.png"  class="img-fluid " style="width: 100px;">
+            </a>
+        </div>
 
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -63,18 +44,18 @@ https://templatemo.com/tm-559-zay-shop
 
         <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
             <div class="flex-fill">
-                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto ">
                     <li class="nav-item">
-                        <a class="nav-link" href="Jollibee">Trang chủ</a>
+                        <a class="nav-link fw-bold" href="">Trang chủ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Dichvu">Dịch vụ</a>
+                        <a class="nav-link fw-bold" href="Dichvu">Dịch vụ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Menu">Thực đơn</a>
+                        <a class="nav-link fw-bold" href="Menu">Thực đơn</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Lienhe">Liên hệ</a>
+                        <a class="nav-link fw-bold" href="Lienhe">Liên hệ</a>
                     </li>
                 </ul>
             </div>
@@ -132,10 +113,10 @@ https://templatemo.com/tm-559-zay-shop
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="img-fluid" src="./img/gahoangkim.jpg" alt="">
+            <img class="img-fluid" src="./img/banner-1.png" alt="">
         </div>
         <div class="carousel-item">
-            <img class="img-fluid" src="./img/banner1.jpg" alt="">
+            <img class="img-fluid" src="./img/banner-2.png" alt="">
         </div>
     </div>
     <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
