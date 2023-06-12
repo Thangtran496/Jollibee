@@ -233,6 +233,7 @@
 
 					<c:forEach items="${product}" var="p">
 						<div class="card">
+							<img src="img/${p.image }">
 							<div class="card-body">
 								<h5 class="card-title">${p.name }</h5>
 								<p>${p.price }</p>
